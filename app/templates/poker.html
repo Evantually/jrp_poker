@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block app_content %}
+    <form id="setName" method="POST" action="#">
+        <input type="text" name="username" id="setNameData" placeholder="Set Name">
+        <input type="submit" value="Set Name">
+    </form>
+    <div id="log"></div>
+{% endblock %}

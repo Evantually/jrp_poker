@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block app_content %}
+    <form id="messages" method="POST" action="#">
+        <input type="text" name="messages" id="messageData" placeholder="Message">
+        <input type="submit" value="Message">
+    </form>
+    <div id="log"></div>
+{% endblock %}
